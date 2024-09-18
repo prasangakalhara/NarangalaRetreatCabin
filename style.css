@@ -777,4 +777,10 @@ a:hover {
   .social:hover i {
     color: black; /* Change icon color to black on hover */
   }
-  
+
+  @media screen and (max-width:768px){
+    .header__content h1{
+      font-size: 2rem;
+      line-height: 1rem;
+    }
+  }
